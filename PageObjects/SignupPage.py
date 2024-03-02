@@ -8,7 +8,7 @@ import pytest
 @pytest.mark.sanity
 class SignUp(SignUpLocators, CredentialsSignUp):
 
-    @pytest.mark.sanity
+    #@pytest.mark.sanity
     def __init__(self, driver):
         self.driver = driver
 
@@ -63,6 +63,10 @@ class SignUp(SignUpLocators, CredentialsSignUp):
 
     def click_register(self):
         self.driver.find_element(By.XPATH, self.text_register_button_xpath).click()
+        #self.driver.save_screenshot("./Screenshots")
+
+
+
 
 
 

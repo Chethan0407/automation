@@ -5,14 +5,14 @@ last_names = ["Suhan", "vinu", "chinni", "Allan", "kiru"]
 
 class CredentialsSignUp():
 
-        firstname = (rd.choice(first_names))
-        lastname = (rd.choice(last_names))
+        firstname ="Charan" #(rd.choice(first_names))
+        lastname = "Kiran" #(rd.choice(last_names))
         add = "Ecity"
         city = "Bangalore"
         state = "Karnataka"
         zipcode = "562106"
         phonenumber = "9606774079"
-        ssn = "123456789"
+        ssn = "1234567890"
         username = (rd.choice(first_names))
         password = (rd.choice(last_names))
-        rePassword = (rd.choice(last_names))
+        rePassword = password
